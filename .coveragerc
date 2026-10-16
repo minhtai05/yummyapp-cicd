@@ -1,0 +1,6 @@
+[run]
+source = yummy_app,gps_service
+
+[report]
+show_missing = True
+precision = 2
