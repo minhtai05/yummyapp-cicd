@@ -28,6 +28,22 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: 4. Execute Test Suite
+      - name: 4. Static Code Analysis (Linter)
         run: |
-          python -m unittest discover -s . -p "test_*.py" -v
+          python -m flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+      - name: 5. Execute Tests & Quality Gate
+        run: |
+          python -m coverage run -m unittest discover -s . -p "test_*.py" -v
+          python -m coverage report -m
+          python -m coverage html -d coverage_html
+          python -m coverage report --fail-under=80
+
+      - name: 6. Upload HTML Coverage Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: YummyApp-Coverage-Report
+          path: coverage_html/
+          retention-days: 7
+          if-no-files-found: warn
