@@ -1,12 +1,11 @@
-# Minh chứng thực thi
+# Nguồn log minh chứng
 
-- `local_test.log`: log thực chạy bằng `python scripts/run_local.py`.
-  Bản hiện tại dùng Python 3.11.9, đúng requirements: flake8 0 lỗi,
-  14/14 test đạt, coverage 97.06% và quality gate 80% đạt.
-- `git_history.log`: tạo bằng `python scripts/export_git_history.py`
-  sau khi thực hiện các commit với họ tên, MSSV và email của bạn.
-- `github_actions_run.log`: tải raw log của lần CI cuối cùng thành công
-  từ GitHub Actions. Không dùng log local thay cho log GitHub.
+- `local_test.log`: kết quả chạy lint, 14 unit test và coverage ngày 16/10/2026.
+- `git_history.log`: lịch sử 5 commit của tác giả `2312740 - Trần Minh Tài`,
+  kết thúc ở commit `1d13ab1`.
+- `github_actions_run.log`: raw log của lần chạy
+  <https://github.com/minhtai05/yummyapp-cicd/actions/runs/38876949961>.
 
-Hai log cuối chưa được tạo vì chưa có định danh sinh viên, kho GitHub
-và lần chạy CI thật. Không đổi tên tệp README này thành log minh chứng.
+Các log được giữ nguyên theo bộ minh chứng đã lưu. Log lịch sử và log Actions
+không bao gồm những commit hoặc lần chạy phát sinh sau thời điểm xuất log.
+Hai PDF của bài nộp nằm ở gốc repository.

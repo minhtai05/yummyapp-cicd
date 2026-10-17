@@ -1,0 +1,39 @@
+* commit 1d13ab1a0f7b911abbd89ceee2b38ed256a18e86
+| Author:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| AuthorDate: 2026-10-16T15:55:25+07:00
+| Commit:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| CommitDate: 2026-10-16T15:55:25+07:00
+| 
+|     Lab7: sua loi cu phap va khoi phuc CI xanh
+| 
+* commit d2876413999defcad2d78ca3cf443954fb727c28
+| Author:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| AuthorDate: 2026-10-16T15:53:57+07:00
+| Commit:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| CommitDate: 2026-10-16T15:53:57+07:00
+| 
+|     Lab7: co y tao loi cu phap de kiem tra fail-fast
+| 
+* commit bb4c3462d24f1416523a54ef388d7942ab3dfb40
+| Author:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| AuthorDate: 2026-10-16T15:49:44+07:00
+| Commit:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| CommitDate: 2026-10-16T15:49:44+07:00
+| 
+|     Lab7: bo sung 7 ca mocking va 3 ca bien
+| 
+* commit 1d07efd314529e647645c62106318d312df1fc62
+| Author:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| AuthorDate: 2026-10-16T15:47:31+07:00
+| Commit:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+| CommitDate: 2026-10-16T15:47:31+07:00
+| 
+|     Lab7: them lint va quality gate 80 phan tram
+| 
+* commit 157b68e96e291d9c4cbd0cb5165c7260cebc495f
+  Author:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+  AuthorDate: 2026-10-16T15:39:44+07:00
+  Commit:     2312740 - Trần Minh Tài <minhtaitran00012@gmail.com>
+  CommitDate: 2026-10-16T15:39:44+07:00
+  
+      Lab7: khoi tao 4 test co ban va CI
