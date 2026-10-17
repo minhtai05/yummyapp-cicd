@@ -34,10 +34,10 @@ jobs:
 
       - name: 5. Execute Tests & Quality Gate
         run: |
-          python -m coverage run -m unittest discover -s . -p "test_*.py" -v
-          python -m coverage report -m
+          python -m coverage run --source=yummy_app,gps_service -m unittest discover -s . -p "test_*.py" -v
+          python -m coverage report -m --precision=2
           python -m coverage html -d coverage_html
-          python -m coverage report --fail-under=80
+          python -m coverage report --precision=2 --fail-under=80
 
       - name: 6. Upload HTML Coverage Report Artifact
         if: always()
